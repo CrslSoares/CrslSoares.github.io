@@ -607,6 +607,38 @@ main{position:relative;z-index:1}
             <img class="w-thumb" src="https://picsum.photos/seed/acetone-design/640/400.jpg" alt="" loading="lazy">
           </a>
         </li>
+
+        <!-- SÉRIE E — DATA VISUALIZATION -->
+        <li class="works-group reveal">
+          <span class="wg-name"><b>SÉRIE E</b><span data-en="Data Visualization" data-pt="Visualização de dados">Visualisation de données</span></span>
+          <span class="wg-meta">01 <span data-en="case study" data-pt="estudo">étude</span></span>
+        </li>
+        <li class="reveal">
+          <a href="#works" class="work-row" data-index="7" aria-label="Ouvrir : [Nom du projet]">
+            <span class="w-no">E·01</span>
+            <span class="w-main"><h3 class="w-title">[Nom du projet]</h3>
+              <span class="w-sub" data-en="Academic project — Ensimag" data-pt="Projeto acadêmico — Ensimag">Projet académique — Ensimag</span></span>
+            <span class="w-right"><span class="w-tags" data-en="[Outil 1] · [Outil 2]" data-pt="[Ferramenta 1] · [Ferramenta 2]">[Outil 1] · [Outil 2]</span><span class="w-year">2026</span></span>
+            <span class="w-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            <img class="w-thumb" src="https://picsum.photos/seed/ensimag-viz/640/400.jpg" alt="" loading="lazy">
+          </a>
+        </li>
+
+        <!-- SÉRIE F — PROJETS PERSONNELS -->
+        <li class="works-group reveal">
+          <span class="wg-name"><b>SÉRIE F</b><span data-en="Personal projects" data-pt="Projetos pessoais">Projets personnels</span></span>
+          <span class="wg-meta">0N <span data-en="experiments" data-pt="experimentos">expérimentations</span></span>
+        </li>
+        <li class="reveal">
+          <a href="#works" class="work-row" data-index="8" aria-label="Ouvrir : [Nom du projet perso]">
+            <span class="w-no">F·01</span>
+            <span class="w-main"><h3 class="w-title">[Nom du projet perso]</h3>
+              <span class="w-sub" data-en="Personal project" data-pt="Projeto pessoal">Projet personnel</span></span>
+            <span class="w-right"><span class="w-tags" data-en="[Stack]" data-pt="[Stack]">[Stack]</span><span class="w-year">2026</span></span>
+            <span class="w-arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M9 7h8v8"/></svg></span>
+            <img class="w-thumb" src="https://picsum.photos/seed/perso-01/640/400.jpg" alt="" loading="lazy">
+          </a>
+        </li>
       </ul>
     </div>
   </section>
@@ -1030,7 +1062,19 @@ const PROJECTS = [
       en:["Full mass and energy balances","Sizing of the main process equipment","Design dossier to engineering-office standards"],
       pt:["Balanços de massa e de energia completos","Dimensionamento dos principais equipamentos","Dossiê de concepção conforme normas de escritório de engenharia"]
     }
-  }
+  },
+  { no:'E·01', title:'[Nom]', year:'2026', seed:'ensimag-viz',
+    tags:{fr:'…',en:'…',pt:'…'},
+    role:{fr:'Projet académique — MS GEM, Ensimag',en:'Academic project — MS GEM, Ensimag',pt:'Projeto acadêmico — MS GEM, Ensimag'},
+    status:{fr:'Dossier sur demande',en:'Dossier on request',pt:'Dossiê sob solicitação'},
+    links:[{fr:'Dossier sur demande',en:'Dossier on request',pt:'Dossiê sob solicitação',href:'mailto:celso.renan.soares.lima@gmail.com'}],
+    desc:{fr:'…',en:'…',pt:'…'}, points:{fr:["…"],en:["…"],pt:["…"]} },
+  { no:'F·01', title:'[Nom]', year:'2026', seed:'perso-01',
+    tags:{fr:'…',en:'…',pt:'…'},
+    role:{fr:'Démarche autodidacte',en:'Self-directed project',pt:'Iniciativa autodidata'},
+    status:{fr:'Public sur GitHub',en:'Public on GitHub',pt:'Público no GitHub'},
+    links:[{fr:'GitHub',en:'GitHub',pt:'GitHub',href:'https://github.com/CrslSoares/[repo]'}],
+    desc:{fr:'…',en:'…',pt:'…'}, points:{fr:["…"],en:["…"],pt:["…"]} },
 ];
 
 /* ---------- helpers ---------- */

@@ -1,6 +1,6 @@
 # SÉRIE E — DATA VISUALIZATION
-Projeto do GitHub com Ensimag
-# Adicionar uma parte de projetos Pessoais com o uma pequena descrição e um link para o GitHub - Série F
-
+Projeto do GitHub com Ensimag, Escrever Descrição
+# Projetos Pessoais GitHub - Série F
+Escrever Descrição
 # Melhorar a descrição dos Projetos
 # Colocar as Imagens corretas
